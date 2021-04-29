@@ -1,0 +1,330 @@
+/* QAQNUSS  */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 60px;
+    background-color:rgba(0, 0,0, 8);
+    max-height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(12px);
+    z-index: 999;
+}
+
+nav{
+    width: 75%;
+    height: 60px;
+    max-height: 60px;
+    margin: 0px auto;
+}
+
+.navigation_container{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 25px;
+}
+
+.nav__item{
+    list-style: none;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #878787;
+    font-size: 14px;
+}
+
+.nav__link:hover{
+    color: #fff;
+}
+
+.covid{
+    background-color: rgb(65, 115, 182);
+    padding: 15px;
+}
+
+.covid_link{
+    color: rgb(247, 235, 235);
+    text-decoration: none;
+    text-align: center;
+}
+
+.covid_link:hover{
+    text-decoration: underline;
+}
+
+.shop{
+    background-color: rgb(243, 236, 236);
+    padding: 10px;
+}
+
+.shop p{
+    text-align: center;
+}
+
+.shop a{
+    text-decoration:none;
+}
+
+.shoponline:hover{
+     text-decoration: underline;
+}
+
+.blue-link {
+    text-decoration: none;
+    color: rgb(82, 82, 201);
+}
+
+.blue-link:hover {
+    text-decoration: underline;
+}
+
+
+.banner {
+    width: 100%;
+    height: 510px;
+    background-image: url('https://www.apple.com/v/home/x/images/heroes/iphone-12/iphone_12_us__fo0stbby242m_large.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.banner-1 {
+    width: 100%;
+    height: 510px;
+    background-image: url('https://www.apple.com/v/home/x/images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_small.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.banner-2 {
+    width: 100%;
+    height: 510px;
+    background-image: url('https://www.apple.com/v/home/x/images/heroes/apple-card-march/hero_apple_card__bt4lpouoeyoi_small.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.banner__h1 {
+    padding-top: 50px;
+    font-size: 60px;
+    color: #1d1d1f;
+    letter-spacing: 0px;
+}
+
+.banner__h4 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.simple__text {
+    font-size: 20px;
+    padding-top: 15px;
+    color: #86868b;
+}
+.banner-1 h2 {
+    color: chartreuse;
+    font-weight: lighter;
+}
+
+/* QAQNUSS */
+
+
+section {
+    display: grid;
+    background: chartreuse;
+}
+
+section > .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    padding: 5px;
+    grid-gap: 10px;
+    background: rgb(253, 253, 253);
+    height: 1800px;
+}
+
+section >.container > div:nth-child(1) {
+    background-image: url(https://www.1zoom.ru/big2/67/234848-Sepik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section > .container > div:nth-child(2) {
+    background-image: url(https://www.1zoom.ru/big2/67/234848-Sepik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section > .container > div:nth-child(3) {
+    background-image: url(https://www.1zoom.ru/big2/67/234848-Sepik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section > .container > div:nth-child(4) {
+    background-image: url(https://www.1zoom.ru/big2/67/234848-Sepik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section > .container > div:nth-child(5) {
+    background-image: url(https://www.1zoom.ru/big2/67/234848-Sepik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section > .container > div:nth-child(6) {
+    background-image: url(https://www.1zoom.ru/big2/67/234848-Sepik.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container > div {
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+.container >.button {
+    display: flex;
+    padding:15px 12px ;
+    margin: 20px;
+}
+
+.container > .big {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 22px;
+    padding: 15px 12px;
+    font-weight: 500;
+}
+
+.container > .big-2 {
+    display:inline-flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 15px 12px;
+}
+
+/* QAQNUSS */
+
+footer{
+    width: 70%;
+    /* height: 100vh; */
+    margin: auto;
+    color: #86868b;
+    padding-bottom: 200px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-desc{
+    font-size: 14px;
+    color: #86868b;
+}
+
+.footer-line {
+    height: 20px;
+    width: 100%;
+    border-bottom: 0.5px solid #86868b;
+}
+
+.footer-nav {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link-block {
+    padding-top: 20px;
+}
+
+.footer-link-col {
+    padding-bottom: 25px;
+}
+
+.footer-link-col h4 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer-link-col li {
+    list-style: none;
+    line-height: 30px;
+    
+}
+
+.footer-link-col a {
+    color: #86868b;
+    text-decoration: none;
+}
+
+.footer-finish {
+    margin: 485px 30px 30px;
+
+}
+
+.author {
+    color: #888;
+    padding-right: 20px;
+}
+
+.moreAuthor {
+    display:flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.moreAuthor ul {
+    display: flex;
+    list-style: none;
+}
+
+.moreAuthor ul li a {
+    margin-right: 10px;
+    padding-right: 5px;
+    color: #86868b;
+    border-right: 0.5px solid #86868b;
+    text-decoration: none;
+}
+.continent {
+    color: #888;
+} 
+
+.moreAuthor ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* QAQNUSS */
